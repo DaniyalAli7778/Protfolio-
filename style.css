@@ -7,3 +7,19 @@ html,body{
     height: 100%;
     width: 100%;
 }
+.main-sector{
+    height: 95vh;
+    width: 100vw;
+}
+.section-1{
+    height:100%;
+    width:100%;
+}
+.section-1-png{
+    height: 100px;;
+    width:300px;
+}
+#Main-png{
+height: 50%;
+width: 50%;
+}
