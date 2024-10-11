@@ -1,25 +1,177 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-html,body{
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main-sector {
+  height: 100%;
+  width: 100%;
+ 
+}
+.Section-1 {
+  height: 100%;
+  width: 100%;
+ 
+  display: flex;
+}
+#Section-1-png {
+  height: 100%;
+  width: 50%;
+}
+
+.information-about-Developer {
+  height: 100%;
+  width: 50%;
+  position: relative;
+}
+.information {
+  height: 200px;
+  width: 300px;
+ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.information h1 {
+  width: 100%;
+  color: rgb(52, 52, 52);
+  padding: 0.4rem 3.2rem;
+}
+.information h3 {
+  width: 100%;
+  color: rgb(52, 52, 52);
+  padding: 0 4rem;
+}
+#Section-1-button{
+    height:25px;
+    width: 120px;
+   background: #343434;
+   color: white;
+   margin-top:2rem;
+   margin-right: 2rem;
+   border: none;
+   font-size: x-small;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Media Queryies Sections */
+@media (max-width: 650px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+  .main-sector {
     height: 100%;
     width: 100%;
+ 
+  }
+  .Section-1 {
+    height: 100%;
+    width: 100%;
+ 
+    position: relative;
+    
+
+  }
+  #Section-1-png {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+  }
+
+  
+.information-about-Developer{
+height: 100%;
+width: 100%;
+position: absolute;
+z-index: 2;
+  
 }
-.main-sector{
-    height: 95vh;
-    width: 100vw;
-}
-.section-1{
-    height:100%;
-    width:100%;
-}
-.section-1-png{
-    height: 100px;;
-    width:300px;
-}
-#Main-png{
-height: 50%;
-width: 50%;
+.information {
+    height: 200px;
+    width: 300px;
+   
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    transform: translate(-55%, -55%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+  
+  }
+
+  .information h1 {
+    width: 100%;
+    height: fit-content;
+    color: rgb(52, 52, 52);
+    padding: 0.4rem 3.2rem;
+    font-size: 3.5vh;
+    font-weight: 600;
+  }
+
+  .information h3 {
+    height: fit-content;
+    width: 100%;    
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(52, 52, 52);
+    padding: 0 4rem;
+  }
+  #Section-1-button{
+    height: fit-content;
+      height:25px;
+      width: 120px;
+     background: #343434;
+     color: white;
+     margin-top:2rem;
+     margin-right: 2rem;
+     border: none;
+     font-size: small;
+     font-weight: 600;
+     letter-spacing: 1px;
+     word-spacing: 1.5px;
+  }
 }
